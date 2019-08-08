@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@viewport {
+  width: 100%;
+}
+
+.clock {
+  background-color: #0b938a;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  padding: .75rem;
+}
+
+#greeting {
+  font-size: 2.25rem;
+}
+

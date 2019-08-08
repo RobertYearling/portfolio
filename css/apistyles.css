@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 3px;
+}
+
+.weather-container {
+  background-image: linear-gradient(to bottom, #7ed56f, #28b485);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 20%;
+}
+
+.weather {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.temp {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.windspeed {
+  font-size: 40px;
+  margin: 0px;
+  padding-bottom: 7px;
+}
+
+.cityid {
+  font-size: 40px;
+  margin: 0px;
+  font-weight: 400;
+}
+
+.nasa-container {
+  text-align: center;
+}
+
