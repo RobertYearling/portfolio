@@ -4,14 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 p {
   padding: 3px;
 }
 
 .weather-container {
-  background-image: linear-gradient(to bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to bottom right, #8695d8, #36406b);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #969696;
+  margin: 20px auto;
+  padding: 15px;
   text-align: center;
-  margin-bottom: 10px;
+  width: 90%;
 }
 
 .icon {
@@ -41,6 +49,22 @@ p {
 }
 
 .nasa-container {
+  background-image: linear-gradient(to bottom right, #e9fcbd, #348157);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #969696;
+  margin: 20px auto;
+  padding: 15px;
   text-align: center;
+  width: 90%;
 }
+
+#apod_img_id {
+  width: 85%;
+}
+
+#apod_vid_id {
+  width: 85%;
+}
+
+
 
