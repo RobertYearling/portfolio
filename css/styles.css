@@ -33,7 +33,7 @@ a {
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  padding: 20px;
+  padding: 13px;
 }
 
 body {
@@ -72,7 +72,7 @@ hr {
   border-bottom: none;
   border-width: 7px;
   margin: auto;
-  width: 7%;
+  width: 10%;
 } 
 
 p {
@@ -119,9 +119,9 @@ p {
   padding: 20px;
 }
 
-.about-description {
-  text-align: left;
-}
+/*.about-description {
+  
+}*/
 
 .portfolio {
   margin: auto;
@@ -129,19 +129,30 @@ p {
   margin-bottom: 40px;
 }
 
-.box {
+.portfolio-row {
   background-color: #89b1b830;
   box-shadow: 2px 2px 12px #c7c7c7;
-  color: #38646b;
   border-radius: 5px;
-  line-height: 1.3rem;
-  margin: auto;
-  padding: 10px;
+  color: #38646b;
+  line-height: 1rem;
+  margin: 10px auto;
   width: 90%;
 }
 
-.box-image {
-  width: 90%;
+.portfolio-image {
+  margin-top: 10px;
+  width: 25%;
+}
+
+.portfolio-text {
+  font-size: .9rem;
+  padding-top: 5px;
+}
+
+.portfolio-link {
+  color: #38646b;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 .skills {
@@ -162,7 +173,7 @@ p {
 }
 
 .skills-image {
-  height: 60px;
+  height: 50px;
   margin: 5px 10px;
 }
 
@@ -194,23 +205,21 @@ p {
   text-decoration: none;
 }
 
-.btn-link {
-  color: #38646b;
-  text-decoration: none;
-}
-
 .footer {
   background-color: #AADCE440;
   font-family: 'Montserrat', sans-serif;
   height: 215px;
   line-height: 2rem;
-  padding: 15px;
+  padding: 0px;
   margin-top: 7rem;
 }
 
-.footer-link {
-  font-size: 1.2rem;
-  text-decoration: none;
+/*.footer-link {
+
+}*/
+
+.social {
+  height: 55px;
 }
 
 .copywrite {
@@ -219,14 +228,20 @@ p {
   font-size: .9rem;
 }
 
-.social {
-  height: 70px;
-}
-
 @media (min-width: 768px) {
   .container {
     max-width: 1920px;
     margin: auto;
     width: 75%;
+  }
+
+  hr {
+    width: 7%;
+  } 
+
+  .portfolio {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
   }
 }
