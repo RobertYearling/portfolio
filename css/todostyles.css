@@ -5,38 +5,66 @@
 }
 
 body {
-  background-color: rgba(174, 130, 55, .5);
-  color: rgba(48, 40, 26, 1);
+  background-color: white;
+  color: #38646b;
   text-align: center;
   font-size: 1.75rem;
 }
 
-@media only screen and (max-width: 375px) {
-  
-  .todo {
-    padding: 5px;
-  }
-  
-  input {
-    font-size: 1.25rem;
-  }
-  
-  ul {
-    font-size: 1.5rem;
-  }
-  
-  li {
-    background-color: rgba(174, 130, 55, .5);
-  }
-  
-  .btn {
-    padding: 6px;
-  }
-  
-  button {
-    background-color: rgba(48, 40, 26, .2);
-    border: 1px solid rgba(48, 40, 26, 1);
-    padding: 5px;
-    font-size: 1.25rem;
-  }
+button {
+  background-color: #38646b;
+  color: aliceblue;
+  border: 1px solid whitesmoke;
+  padding: 5px;
+  font-size: 1.25rem;
+}
+
+hr {
+  border: 3px solid #38646b;
+  margin: 20px auto;
+  width: 80%;
+}
+
+input {
+  font-size: 1.25rem;
+  margin-left: 5px;
+  width: 70%;
+}
+
+li {
+  border-bottom: 1px solid #38646b;
+  margin: auto;
+  padding-bottom: 7px;
+  text-align: left;
+  width: 80%;
+}
+
+ul {
+  font-size: 1.5rem;
+  list-style-type: none;
+}
+
+.btn {
+  padding: 6px;
+}
+
+.form {
+  border: 1px solid #38646b;
+  margin: auto;
+  text-align: left;
+  width: 80%;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.title {
+  background-color: White;
+  color: #38646b;
+  margin-bottom: 15px;
+}
+
+.todo {
+  padding: 5px;
 }
